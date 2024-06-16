@@ -10,7 +10,7 @@ class Config(object):
 	BOT_USERNAME = os.environ.get("BOT_USERNAME", "Sanji_Test_Robot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001957744474"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "5297903100"))
-	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://killersom72:<password>@sanjifilestore.x6rhkdi.mongodb.net/?retryWrites=true&w=majority&appName=SanjiFileStore")
+	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://killersom72:killersom72@sanjifilestore.x6rhkdi.mongodb.net/?retryWrites=true&w=majority&appName=SanjiFileStore")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001813852666")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", None)
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
